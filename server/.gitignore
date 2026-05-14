@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.pgdata/
+
+# Secrets — never commit. Use .env.example for templates only.
+.env
+.env.*
+!.env.example
+*.p8
+*.pem
+*.key

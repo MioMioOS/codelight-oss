@@ -1,0 +1,22 @@
+.build/
+xcuserdata/
+.swiftpm/
+
+# Xcode archive / export output
+app/build/
+
+# Asset backups
+*.original.png
+
+# Secrets — never commit. Use .env.example for templates only.
+.env
+.env.*
+!.env.example
+*.p8
+*.pem
+*.key
+!*.swift.key
+
+# Local handoff/scratch notes (often contain ops secrets)
+*-SYNC-*.md
+*-handoff-*.md
